@@ -1,0 +1,250 @@
+body {
+    background-image: url("turtle.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+ .firsth1{font-size:130px;font-style: inherit;color: #f7efef;text-align:center;animation: animate 3s 1;text-shadow: 2px 2px 4px #000000;}
+
+ .head{font-size:45px;font-family: 'Open Sans', sans-serif; ;color: #f7efef;text-align:center;color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+
+ .head a:hover{
+  color: rgb(211, 203, 183);
+ }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 46,
+  'wght' 600,
+  'GRAD' 90,
+  'opsz' 78
+}
+
+
+#secondpart{background-color: rgb(221, 231, 232); ;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size:100% 100%;
+  width: 100%;
+} 
+
+.secondh1{font-size:70px ;font-style: italic;font-weight: 200;color: rgb(97, 103, 97);text-align: center;}
+
+  .Pstyle
+{
+  font-size: 26px;
+  text-align:center;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-indent: inherit;
+  font-style: oblique;
+  color: rgb(81, 79, 79);
+  font-weight: 200;
+  
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+ float:left;
+  width: 23%;
+  padding: 30px;
+  height: 370px; /* Should be removed. Only for demonstration */
+  border-radius:5px;
+  max-width: 500px;
+  margin: 40px;
+  
+  
+
+}
+#special{height: 570px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.why{text-align: center;font-size: 40px;font-family: 'Red Hat Display', sans-sowerif;color: rgb(177, 140, 18);}
+.row h2{color: rgb(191, 113, 10);text-align: center;font-size: 28px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif }
+.row p{color: rgb(67, 39, 6);text-align: justify;font-size: 22px;font-family: 'IBM Plex Sans', sans-serif;}
+
+.thirdpart
+{
+  
+  width: 90%;
+  padding: 30px;
+  height: 450px; /* Should be removed. Only for demonstration */
+  border-radius:5px;
+  margin: 40px;
+  text-align: justify;
+  padding: 20px;
+  margin: 40px;
+  justify-content: center;
+  align-items: center;
+
+}
+.thirdpart h2{font-size: 30px;color: rgb(61, 73, 85);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.thirdpart li{font-size: 25px;color: rgb(220, 255, 252); font-family:'Rajdhani', sans-serif;}
+
+.forthpart
+{
+  width: 90%;
+  padding: 30px;
+  height: 850px; /* Should be removed. Only for demonstration */
+  border-radius:5px;
+  margin: 40px;
+  text-align: justify;
+  padding: 20px;
+  margin: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.forthpart h2{font-size: 40px;color: rgb(61, 73, 85);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;}
+.forthpart p{font-size: 25px;color: rgb(63, 85, 83); font-family:'Red Hat Display', sans-sowerif;}
+
+
+#fifthpart{
+  display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #292170;
+   font-size: 20px;
+   font-weight: 100;}
+
+.linkmail a:link
+    {
+      color: #292170;;
+    }
+
+    .linkmail a:hover
+    {
+      
+      color: rgb(198, 203, 217);
+
+    }
+
+    .linkmail a:visited
+    {
+      color: #292170;
+    }
+  .linkmail a:active
+  {
+    color:gray ;
+  }
+
+p{font-size: 20px;
+  font-weight: 200;}
+  address{
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  
+.fa:hover {
+  opacity: 0.7;
+  color: rgb(138, 245, 138);
+}
+
+.fa-facebook {
+background-color: #7f8eb7;
+
+}
+
+.fa-twitter {
+background: #7f8eb7;
+
+}
+
+.fa-instagram {
+background:  #7f8eb7;
+color: white;
+}
+
+.socials{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem 0 3rem 0;
+padding: 0px 10px 0px 10px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+
+}
+
+.socials li{
+margin: 0 30px;
+}
+.socials a{
+text-decoration: none;
+color: #fff;
+
+}
+.socials a {
+font-size: 2rem;
+transition: color .4s ease;
+}
+
+
+
+
+#sixthpart{
+  background: rgb(90, 99, 130);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration-color: #fcfcfc;
+
+}
+
+  #sixthpart p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #sixthpart span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
+  
+  #sixth a{
+  color: #fff;
+  }
+  
+      footer{
+      position:static;
+      bottom: 0;
+      left: 800px;
+      right: 800px;
+      background:#7f8eb7;
+      height: auto;
+      width: 100%;
+      font-family: "open sans";
+      padding-top: 10px;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;;
+ }
+
+ 
